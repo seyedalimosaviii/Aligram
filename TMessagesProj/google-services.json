@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "940494621313",
+    "project_id": "aligram-b9c85",
+    "storage_bucket": "aligram-b9c85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940494621313:android:7d98abc261ca3e363d9b80",
+        "android_client_info": {
+          "package_name": "com.aligram.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940494621313-4e57ale814fusbf50opc3hs6gobjiubl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzdRQVfzVM7zrFk5BhaTyCINW1kgthycY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940494621313-4e57ale814fusbf50opc3hs6gobjiubl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940494621313:android:32246cc5717961f03d9b80",
+        "android_client_info": {
+          "package_name": "com.aligram.messenger.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940494621313-4e57ale814fusbf50opc3hs6gobjiubl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzdRQVfzVM7zrFk5BhaTyCINW1kgthycY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940494621313-4e57ale814fusbf50opc3hs6gobjiubl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

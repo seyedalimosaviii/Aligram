@@ -1,0 +1,16 @@
+TMessagesProj/.externalNativeBuild/
+.gradle/
+.idea/
+build/
+.cxx/
+obj/
+
+output-metadata.json
+local.properties
+*.jks
+API_KEYS
+
+*.hprof
+*.iml
+*.apk
+*.DS_Store

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+ Это исходный код exteraGram для Android.
+
+ Мы не запрещаем и не можем запретить использовать наш код,
+ но имейте уважение и указывайте оригинального автора.
+
+ Copyright @immat0x1, @itsv1eds, 2022.
+
+-->
+
+<resources>
+    <!-- exteraGram's Main Strings -->
+    <string name="UpdateExteraGram">Это сообщение не поддерживается вашей версией exteraGram. Обновите приложение, чтобы увидеть: https://github.com/exteraSquad/exteraGram/releases/latest</string>
+    <string name="MutualContact">взаимный контакт</string>
+    <string name="ToBeginning">В начало</string>
+    <string name="SaveMessage">Сохранить сообщение</string>
+
+    <!-- Main Menu (about) -->
+    <string name="exteraPrivacy">Политика конфиденциальности и FAQ</string>
+    <string name="Links">Ссылки</string>
+    <string name="AboutExteraDescription">Экспериментальный Telegram-клиент, основанный на официальном исходном коде Telegram!</string>
+    <string name="Channel">Канал</string>
+    <string name="Chats">Чаты</string>
+    <string name="Crowdin">Перевод</string>
+    <string name="SourceCode">Исходный код</string>
+
+    <string name="Preferences">Настройки exteraGram</string>
+    <string name="RestartRequired">Перезагрузите приложение, чтобы изменения вступили в силу.</string>
+
+    <string name="Categories">Категории</string>
+
+    <!-- Appearance -->
+    <string name="UseSystemFonts">Системные шрифты</string>
+    <string name="UseSystemEmoji">Системные эмодзи</string>
+    <string name="TransparentStatusBar">Прозрачная строка состояния</string>
+    <string name="BlurForAllThemes">Размытие во всех темах</string>
+    <string name="CenterTitle">Заголовок по центру</string>
+    <string name="NewSwitchStyle">Переключатели в стиле MD3</string>
+    <string name="DisableDividers">Отключить разделители</string>
+    <string name="TransparentNavBar">Прозрачная панель навигации</string>
+    <string name="TransparentNavBarInfo">Панель навигации не станет полностью прозрачной, она лишь приобретет цвет панели отправки сообщений.</string>
+
+    <!-- General -->
+    <string name="AvatarCorners">Закругление аватарок</string>
+    <string name="DownloadSpeedBoost">Увеличение скорости загрузки</string>
+    <string name="UploadSpeedBoost">Увеличение скорости отправки</string>
+    <string name="Ultra">Ультра</string>
+    <string name="DisableNumberRounding">Отключить округление чисел</string>
+    <string name="FormatTimeWithSeconds">Показывать время с секундами</string>
+    <string name="ChatsOnTitle">\"Чаты\" вместо \"exteraGram\"</string>
+    <string name="DisableVibration">Отключить вибрацию</string>
+    <string name="ForceTabletMode">Планшетный режим</string>
+    <string name="ArchiveOnPull">Открывать архив при вытягивании</string>
+    <string name="DisableUnarchiveSwipe">Отключить жест \"Вернуть\"</string>
+    <string name="ForcePacmanAnimation">Pac-Man анимация</string>
+    <string name="ForcePacmanAnimationInfo">Для этого нужно выбрать \"Архивировать\" в \"Смахивание влево в списке чатов\".</string>
+    <string name="Profile">Профиль</string>
+    <string name="HidePhoneNumber">Скрыть номер телефона</string>
+    <string name="ShowID">Показывать ID в профиле</string>
+    <string name="ShowDC">Показывать DC в профиле</string>
+    <string name="HidePremiumStickersTab">Скрыть вкладку премиум стикеров</string>
+    <string name="HideFeaturedEmojisTabs">Скрыть избранные премиум эмодзи</string>
+    <string name="PremiumAutoPlayback">Авто-анимация премиум стикеров</string>
+    <string name="DisableAnimatedAvatars">Отключить анимированные аватарки</string>
+
+    <!-- Chats -->
+    <string name="StickerSize">Размер стикеров</string>
+    <string name="StickerSizeDialogMessageReplyTo">жесть</string>
+    <string name="StickerSizeDialogMessage">ого, он такой милый!</string>
+    <string name="StickerShape">Форма стикеров</string>
+    <string name="StickerShapeRounded">Закруглённая</string>
+    <string name="StickerShapeRoundedMsg">Сообщение</string>
+    <string name="StickerTime">Скрыть время под стикером</string>
+    <string name="UnlimitedRecentStickers">Бесконечные недавние стикеры</string>
+    <string name="HideSendAsChannel">Скрыть \"Написать от имени…\"</string>
+    <string name="HideKeyboardOnScroll">Скрывать клавиатуру при скролле</string>
+    <string name="DisableGreetingSticker">Скрыть приветственный стикер</string>
+    <string name="DisableJumpToNextChannel">Отключить \"Перейти в новый канал\"</string>
+    <string name="DisableReactions">Отключить реакции</string>
+    <string name="DateOfForwardedMsg">Дата пересланного сообщения</string>
+    <string name="ShowMessageID">Показывать ID сообщения</string>
+    <string name="ShowActionTimestamps">Показывать время у действий</string>
+    <string name="ZalgoFilter">Фильтровать \"Zalgo\" символы</string>
+    <string name="ZalgoFilterInfo">Все \"Z̷͍͌ā̸̜l̸̞̂g̷̝͘o̶̩̓\" символы в именах или сообщениях будут удалены. Кэш сообщений будет очищен.</string>
+
+    <string name="Media">Медиа</string>
+    <string name="RearVideoMessages">Задняя камера в видеосообщениях</string>
+    <string name="DisableCamera">Отключить камеру в галерее</string>
+    <string name="DisableProximityEvents">Отключить датчик приближения</string>
+    <string name="PauseOnMinimize">Авто-пауза</string>
+    <string name="POMDescription">Останавливает видео, когда девайс блокируется или приложение сворачивается.</string>
+    <string name="DisablePlayback">Отключить авто-проигрывание</string>
+    <string name="DPDescription">Отключает автоматическое проигрывание видео при нажатии на кнопку громкости.</string>
+
+    <!--Camera Preferences-->
+    <string name="CP_Category_Camera">Камера</string>
+    <string name="CP_CameraType">Тип камеры</string>
+    <string name="CP_CameraTypeDefault">По умолчанию</string>
+    <string name="CP_DefaultCameraDesc">Встроенная камера Telegram.</string>
+    <string name="CP_CameraXDesc">CameraX поддерживается только на <![CDATA[<a href="https://developer.android.com/training/camerax/devices">выбранных устройствах</a>]]>, эффекты и линзы зависят от Вашего производителя.</string>
+    <string name="CP_PerformanceMode">Производительный режим</string>
+    <string name="CP_PerformanceModeDesc">Качество CameraX будет снижено в пользу производительности</string>
+    <string name="CP_CameraQuality">Качество камеры</string>
+    <string name="CP_CameraTypeSystem">Системная</string>
+    <string name="CP_SystemCameraDesc">Позволяет получить доступ напрямую к системной камере (не применимо к видеосообщениям).</string>
+
+    <!-- Drawer -->
+    <string name="DrawerElements">Элементы бокового меню</string>
+    <string name="DrawerOptions">Настройки бокового меню</string>
+    <string name="DrawerIconPack">Выбор стиля</string>
+    <string name="NewYear">Новый год</string>
+    <string name="ValentinesDay">День святого Валентина</string>
+    <string name="Halloween">Хэллоуин</string>
+
+    <!-- Updates -->
+    <string name="Updates">Обновления</string>
+    <string name="UpdateAvailable">Доступно обновление!</string>
+    <string name="CheckOnLaunch">Проверять при запуске</string>
+    <string name="NoUpdates">Обновлений не найдено.</string>
+    <string name="CheckForUpdates">Проверить обновления</string>
+    <string name="CurrentVersion">Текущая версия</string>
+    <string name="Version">Версия</string>
+    <string name="UpdateSize">Размер обновления</string>
+    <string name="Changelog">Список изменений:</string>
+    <string name="BuildType">Тип сборки</string>
+    <string name="BTRelease">Релиз</string>
+    <string name="BTBeta">Бета</string>
+    <string name="ClearUpdatesCache">Очистить кэш обновлений</string>
+    <string name="ClearedUpdatesCache">Очищено **%1$s** кэша.</string>
+    <string name="NothingToClear">Нечего очищать.</string>
+    <string name="LastCheck">Последняя проверка</string>
+
+    <!-- Other -->
+    <string name="BoldItalic">Жирный курсив</string>
+
+    <string name="OpenPremiumBot">Открыть официального бота</string>
+
+    <string name="Select">Выбрать</string>
+
+    <string name="EnterID">Введите ID</string>
+    <string name="TrackSaved">Трек сохранен в **%1$s**.</string>
+    <string name="ChannelToSaveDescription">Введите ID канала/чата/пользователя, куда будет сохраняться музыка.</string>
+    <string name="Unknown">Неизвестно</string>
+
+    <string name="ConfirmCall">Подтверждение звонка</string>
+    <string name="CallTo">Позвонить **%1$s**?</string>
+
+    <string name="AppIconRelease">Релизная</string>
+    <string name="AppIconBeta">Бета</string>
+    <string name="AppIconInverted">Инверсия</string>
+    <string name="AppIconMonet">Monet</string>
+    <string name="AppIconGradient">Градиент</string>
+    <string name="AppIconPixel">Пиксельная</string>
+    <string name="AppIconGoogle">Google</string>
+    <string name="AppIconRed">Красный бля</string>
+</resources>

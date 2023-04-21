@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+ This is the source code of exteraGram for Android.
+
+ We do not and cannot prevent the use of our code,
+ but be respectful and credit the original author.
+
+ Copyright @immat0x1, @itsv1eds, 2022.
+
+-->
+
+<resources>
+    <!-- exteraGram's Main Strings -->
+    <string name="exteraAppName" translatable="false">exteraGram</string>
+    <string name="exteraAppNameBeta" translatable="false">exteraGram β</string>
+    <string name="exteraDebugMenu" translatable="false">¯\\_(ツ)_/¯</string>
+    <string name="UpdateExteraGram">This message is not supported on your version of exteraGram. Update the app to view: https://github.com/exteraSquad/exteraGram/releases/latest</string>
+    <string name="MutualContact">mutual contact</string>
+    <string name="ToBeginning">To beginning</string>
+    <string name="SaveMessage">Save message</string>
+
+    <!-- Main Menu (about) -->
+    <string name="exteraPrivacy">exteraGram Privacy Policy and FAQ</string>
+    <string name="exteraPrivacyPolicyUrl" translatable="false">https://extera.codes/faq</string>
+    <string name="Links">Links</string>
+    <string name="AboutExteraDescription">Experimental Telegram client based on official Telegram sources!</string>
+    <string name="Channel">Channel</string>
+    <string name="Crowdin">Translate</string>
+    <string name="SourceCode">Source code</string>
+
+    <string name="Preferences">exteraGram Preferences</string>
+    <string name="RestartRequired">Restart the app to take effect.</string>
+
+    <string name="Categories">Categories</string>
+
+    <!-- Appearance -->
+    <string name="UseSystemFonts">Use system fonts</string>
+    <string name="UseSystemEmoji">Use system emoji</string>
+    <string name="TransparentStatusBar">Transparent status bar</string>
+    <string name="BlurForAllThemes">Blur for all themes</string>
+    <string name="CenterTitle">Center title in action bar</string>
+    <string name="NewSwitchStyle">MD3 switch style</string>
+    <string name="DisableDividers">Disable dividers</string>
+    <string name="TransparentNavBar">Transparent navigation bar</string>
+    <string name="TransparentNavBarInfo">The navigation bar will not become completely transparent, it will only get the color of the Message Panel.</string>
+
+    <!-- General -->
+    <string name="AvatarCorners">Avatar corners</string>
+    <string name="DownloadSpeedBoost">Download speed boost</string>
+    <string name="UploadSpeedBoost">Upload speed boost</string>
+    <string name="Ultra">Ultra</string>
+    <string name="DisableNumberRounding">Disable number rounding</string>
+    <string name="FormatTimeWithSeconds">Format time with seconds</string>
+    <string name="ChatsOnTitle">\"Chats\" instead of \"exteraGram\"</string>
+    <string name="DisableVibration">Disable vibration</string>
+    <string name="ForceTabletMode">Force tablet mode</string>
+    <string name="ArchiveOnPull">Open archive on pulldown</string>
+    <string name="DisableUnarchiveSwipe">Disable \"Unarchive\" swipe</string>
+    <string name="ForcePacmanAnimation">Force Pac-Man animation</string>
+    <string name="ForcePacmanAnimationInfo">This requires the selected \"Archive\" swipe gesture in chat list.</string>
+    <string name="Profile">Profile</string>
+    <string name="HidePhoneNumber">Hide phone number</string>
+    <string name="ShowID">Show ID in Profile</string>
+    <string name="ShowDC">Show DC in Profile</string>
+    <string name="HidePremiumStickersTab">Hide premium stickers tab</string>
+    <string name="HideFeaturedEmojisTabs">Hide featured premium emojis</string>
+    <string name="PremiumAutoPlayback">Premium auto-playback</string>
+    <string name="DisableAnimatedAvatars">Disable animated avatars</string>
+
+    <!-- Chats -->
+    <string name="StickerSize">Stickers size</string>
+    <string name="StickerSizeDialogMessageReplyTo">wow</string>
+    <string name="StickerSizeDialogMessage">woah, he is so cute!</string>
+    <string name="StickerShape">Stickers shape</string>
+    <string name="StickerShapeRounded">Rounded</string>
+    <string name="StickerShapeRoundedMsg">Message</string>
+    <string name="StickerTime">Hide time on stickers</string>
+    <string name="UnlimitedRecentStickers">Unlimited recent stickers</string>
+
+    <string name="HideSendAsChannel">Hide \"Send as Channel\"</string>
+    <string name="HideKeyboardOnScroll">Hide keyboard on scrolling</string>
+    <string name="DisableReactions">Disable reactions</string>
+    <string name="DisableGreetingSticker">Disable greeting sticker</string>
+    <string name="DisableJumpToNextChannel">Disable \"Jump to next channel\"</string>
+    <string name="DateOfForwardedMsg">Show date of forwarded message</string>
+    <string name="ShowMessageID">Show message ID</string>
+    <string name="ShowActionTimestamps">Show timestamps for actions</string>
+    <string name="ZalgoFilter">Filter \"Zalgo\" symbols</string>
+    <string name="ZalgoFilterInfo">All \"Z̷͍͌ā̸̜l̸̞̂g̷̝͘o̶̩̓\" symbols in nicknames or messages will be removed. Messages cache will be cleared.</string>
+
+    <string name="Media">Media</string>
+    <string name="RearVideoMessages">Rear camera in video messages</string>
+    <string name="DisableCamera">Disable instant camera</string>
+    <string name="DisableProximityEvents">Disable proximity events</string>
+    <string name="PauseOnMinimize">Auto-pause</string>
+    <string name="POMDescription">Pauses a video playback when device is locked or exteraGram is minimized.</string>
+    <string name="DisablePlayback">Disable playback</string>
+    <string name="DPDescription">Disables playback when volume button is pressed.</string>
+
+    <!--Camera Preferences-->
+    <string name="CP_Category_Camera">Camera</string>
+    <string name="CP_CameraType">Camera Type</string>
+    <string name="CP_CameraTypeDefault">Default</string>
+    <string name="CP_DefaultCameraDesc">Use the Telegram\'s built-in camera.</string>
+    <string name="CP_CameraXDesc">CameraX is only supported on <![CDATA[<a href="https://developer.android.com/training/camerax/devices">selected devices</a>]]>, effects and lenses support depends on your manufacturer.</string>
+    <string name="CP_PerformanceMode">Performance Mode</string>
+    <string name="CP_PerformanceModeDesc">CameraX\'s quality will be reduced in favor of performance</string>
+    <string name="CP_CameraQuality">Camera Quality</string>
+    <string name="CP_CameraTypeSystem">System</string>
+    <string name="CP_SystemCameraDesc">Access directly the system camera (not applicable for video messages).</string>
+
+    <!-- Drawer -->
+    <string name="DrawerElements">Drawer elements</string>
+    <string name="DrawerOptions">Drawer options</string>
+    <string name="DrawerIconPack">Icon pack</string>
+    <string name="NewYear">New Year</string>
+    <string name="ValentinesDay">Valentine\'s Day</string>
+    <string name="Halloween">Halloween</string>
+
+    <!-- Updates -->
+    <string name="Updates">Updates</string>
+    <string name="UpdateAvailable">Update available!</string>
+    <string name="CheckOnLaunch">Check on launch</string>
+    <string name="NoUpdates">Updates not found.</string>
+    <string name="CheckForUpdates">Check for updates</string>
+    <string name="CurrentVersion">Current version</string>
+    <string name="Version">Version</string>
+    <string name="UpdateSize">Update size</string>
+    <string name="Changelog">Changelog:</string>
+    <string name="BuildType">Build type</string>
+    <string name="BTRelease">Release</string>
+    <string name="BTBeta">Beta</string>
+    <string name="ClearUpdatesCache">Clear updates cache</string>
+    <string name="ClearedUpdatesCache">Cleared **%1$s** of cache.</string>
+    <string name="NothingToClear">Nothing to clear.</string>
+    <string name="LastCheck">Last check</string>
+
+    <!-- Other -->
+    <string name="BoldItalic">Bold italic</string>
+
+    <string name="OpenPremiumBot">Open official bot</string>
+
+    <string name="Select">Select</string>
+
+    <string name="EnterID">Enter the ID</string>
+    <string name="TrackSaved">Track saved to **%1$s**.</string>
+    <string name="ChannelToSaveDescription">Enter the ID of the channel/chat/user where the tracks will be saved</string>
+    <string name="Unknown">Unknown</string>
+
+    <string name="ConfirmCall">Confirm call</string>
+    <string name="CallTo">Call to **%1$s**?</string>
+
+    <string name="formatterDay24HSec" translatable="false">HH:mm:ss</string>
+    <string name="formatterDay12HSec" translatable="false">h:mm:ss a</string>
+
+    <string name="AppIconRelease">Release</string>
+    <string name="AppIconBeta">Beta</string>
+    <string name="AppIconInverted">Inverted</string>
+    <string name="AppIconMonet" translatable="false">Monet</string>
+    <string name="AppIconGradient">Gradient</string>
+    <string name="AppIconPixel">Pixel</string>
+    <string name="AppIconGoogle" translatable="false">Google</string>
+    <string name="AppIconRed" translatable="false">RedEbalo</string>
+</resources>
